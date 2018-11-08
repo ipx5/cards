@@ -10,6 +10,7 @@ class Card extends React.Component {
   };
 
   toggleShow = () => this.setState({show: !this.state.show});
+  showOn = () => this.setState({show: false})
   clickHandler = () => this.props.history.push({ pathname: `/user/${this.props.card.id}` });
   
   render() {
@@ -20,6 +21,7 @@ class Card extends React.Component {
         onClick={this.clickHandler}
         onMouseEnter={this.toggleShow}
         onMouseLeave={this.toggleShow}
+        onMouseOver={this.showOn}
       >
         <ProfileImage />
         <InfoText className="user-name text-bold">
