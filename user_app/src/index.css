@@ -144,9 +144,10 @@ hr {
   display: flex;
   align-items: center;
   margin: 20px;
-  height: 60px;
+  height: 100px;
+  width: 100px;
 }
-.back-button :hover {
+.back-button:hover {
 	animation: bounce 1s;
 }
 .back-button :last-child {
