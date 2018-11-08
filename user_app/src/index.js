@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
-import './index.css';
+import './sass/index.scss';
 import App from './App';
 import CardDetail from './components/CardDetail';
 import * as serviceWorker from './serviceWorker';
